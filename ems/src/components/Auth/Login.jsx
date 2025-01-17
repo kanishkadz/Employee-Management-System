@@ -5,7 +5,8 @@ const Login = () => {
     <div className='flex items-center justify-center'>
         <div className='border-2 border-red-600'>
             <form>
-                <input type="text" />
+                <input type="email" placeholder='Enter your email' />
+                <input type="password" placeholder='Enter password' />
             </form>
         </div>
 
