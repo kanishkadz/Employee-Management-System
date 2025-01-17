@@ -7,6 +7,9 @@ const Login = () => {
 
     const submitHandler = (e) => {
         e.preventDefault();
+
+        setEmail("")
+        setPassword("")
     }
 
 
