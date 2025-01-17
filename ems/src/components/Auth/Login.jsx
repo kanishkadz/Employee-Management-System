@@ -16,7 +16,7 @@ const Login = () => {
         <div className='border-2 rounded-xl border-emerald-600 p-20'>
             <form onSubmit={(e) => {submitHandler(e)}} className='flex flex-col items-center justify-center'>
                 <input value={email} onChange={(e) => {setEmail(e.target.value)}} required className='outline-none bg-transparent placeholder:text-gray-400 border-2 border-emerald-600 rounded-full py-3 px-5 text-xl' type="email" placeholder='Enter your email' />
-                <input required className='outline-none bg-transparent placeholder:text-gray-400 border-2 mt-3 border-emerald-600 rounded-full py-3 px-5 text-xl' type="password" placeholder='Enter password' />
+                <input value={password} onChange={(e) => {setPassword(e.target.value)}} required className='outline-none bg-transparent placeholder:text-gray-400 border-2 mt-3 border-emerald-600 rounded-full py-3 px-5 text-xl' type="password" placeholder='Enter password' />
                 <button className='text-white outline-none mt-7 placeholder:text-white bg-emerald-600 rounded-full py-3 px-5 text-xl'>Log In</button>
             </form>
         </div>
