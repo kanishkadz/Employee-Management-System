@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>
+    <div className='flex items-end justify-between'>
         <h1>Hello <br/> Kanishka 👋</h1>
         <button>Log Out</button>
     </div>
