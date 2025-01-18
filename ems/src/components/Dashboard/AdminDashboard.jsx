@@ -18,6 +18,7 @@ const AdminDashboard = () => {
                 <input type="text" placeholder='Employee Name' />
                 <h3>Category</h3>
                 <input type="text" placeholder='Design, Development, etc' />
+                <button>Create Task</button>
             </form>
         </div>
     </div>
