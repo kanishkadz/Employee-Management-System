@@ -8,6 +8,15 @@ const App = () => {
 
   const [user, setUser] = useState(null)   
 
+  const handleLogin = (email, password) => {
+    if(email == 'admin@me.com' && password == '123'){
+      console.log("This is Admin")
+    } else {
+      alert("Invalid Credentials")
+    }
+  }
+
+  handleLogin()
 
   return (
     <>
