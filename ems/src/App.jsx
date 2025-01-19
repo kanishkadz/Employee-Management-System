@@ -18,8 +18,6 @@ const App = () => {
     }
   }
 
-  handleLogin()
-
   return (
     <>
       {!user ? <Login handleLogin={handleLogin} /> : ' '}
