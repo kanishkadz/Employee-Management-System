@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <>
-      {!user ? <Login /> : ' '}
+      {!user ? <Login handleLogin={handleLogin} /> : ' '}
       {/* <EmployeeDashboard /> */}
       {/* <AdminDashboard /> */}
     </>
