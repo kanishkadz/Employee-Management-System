@@ -6,15 +6,12 @@ import { setLocalStorage } from './utils/localStorage'
 
 const App = () => {
 
-  useEffect(() => {
-    setLocalStorage()
-  })
-  
+  const [user, setUser] = useState(null)   
 
 
   return (
     <>
-      {/* <Login /> */}
+      {!user ? <Login /> : ' '}
       {/* <EmployeeDashboard /> */}
       {/* <AdminDashboard /> */}
     </>
