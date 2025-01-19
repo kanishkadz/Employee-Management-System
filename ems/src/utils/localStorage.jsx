@@ -193,4 +193,11 @@ const employees = [
       password: "123"
     }
   ];
-  
+
+export const setLocalStorage = () =>{
+    localStorage.setItem('employees', JSON.stringify(employees))
+}
+
+export const getLocalStorage = () =>{
+
+}
