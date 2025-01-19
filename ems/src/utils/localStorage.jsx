@@ -203,5 +203,5 @@ export const getLocalStorage = () =>{
     const employees = JSON(localStorage.getItem('employees'))
     const admin = JSON(localStorage.getItem('admin'))
 
-    console.log(employees, admin)
+    return {employees, admin}
 }
