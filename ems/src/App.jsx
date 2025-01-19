@@ -10,9 +10,9 @@ const App = () => {
 
   const handleLogin = (email, password) => {
     if(email == 'admin@me.com' && password == '123'){
-      console.log("This is Admin")
+      setUser('admin')
     } else if(email == 'user@me.com' && password == 123) {
-      console.log("This is user")
+      setUser('employee')
     } else {
       alert("Invalid Credentials")
     }
