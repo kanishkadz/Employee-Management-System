@@ -10,7 +10,7 @@ const FailedTask = () => {
             <h2 className='mt-5 text-2xl font-semibold'>Make a YouTube Video</h2>
             <p className='text-sm  mt-2'> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim eos vero rerum voluptatibus ex repudiandae. </p>
             <div className='mt-2'>
-                <button className='w-full'>Completed</button>
+                <button className='w-full'>Failed</button>
             </div>
         </div>
     )
