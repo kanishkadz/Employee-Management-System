@@ -99,7 +99,6 @@ const employees = [
       },
     ],
   },
-  // Add remaining employee objects with unique `firstName` properties and updated tasks...
 ];
 
 const admin = [
