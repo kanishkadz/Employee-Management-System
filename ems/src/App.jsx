@@ -30,6 +30,7 @@ const App = () => {
       const employee = authData.employees.find((e) => email == e.email && e.password == password)
       if(employee){
         setUser('employee')
+        setLoggedInUserData(employee)
         localStorage.setItem('loggedInUser', JSON.stringify({role: 'employee'}))
       }
     } else {
@@ -41,7 +42,7 @@ const App = () => {
   return (
     <>
       {!user ? <Login handleLogin={handleLogin} /> : ' '}
-      {user == 'admin' ? <AdminDashboard /> : <EmployeeDashboard />}
+      {user == 'admin' ? <AdminDashboard /> : <EmployeeDashboard data={loggedInUserData} />}
     </>
   )
 }
