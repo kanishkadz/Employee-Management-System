@@ -122,3 +122,5 @@ export const getLocalStorage = () => {
 
   return { employees, admin };
 };
+
+//add taskCounts
