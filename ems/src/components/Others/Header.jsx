@@ -12,6 +12,7 @@ const Header = ({data}) => {
 
   const logOutUser = () => {
     localStorage.setItem('loggedInUser', '')
+    window.location.reload()
   }
 
   return (
