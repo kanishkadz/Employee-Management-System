@@ -11,7 +11,7 @@ const Header = ({data}) => {
 // }
 
   const logOutUser = () => {
-    localStorage.set('loggedInUser', '')
+    localStorage.setItem('loggedInUser', '')
   }
 
   return (
