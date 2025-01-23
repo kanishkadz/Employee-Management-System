@@ -18,7 +18,7 @@ const AllTask = () => {
 
       <div className='h-[80%] overflow-auto'>
       {authData.employees.map(function(elem){
-        return <div className='bg-emerald-500 mb-2 py-2 px-4 flex justify-between rounded'>
+        return <div className='border-2 border-emerald-500 mb-2 py-2 px-4 flex justify-between rounded'>
         <h2 className='w-1/5'>{elem.firstName}</h2>
         <h3 className='w-1/5 text-blue-600'>Task</h3>
         <h5 className='w-1/5 text-yellow-400'>Status</h5>
