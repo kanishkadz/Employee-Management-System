@@ -33,3 +33,5 @@ const AllTask = () => {
 }
 
 export default AllTask
+
+//add taskcount in localstorage
