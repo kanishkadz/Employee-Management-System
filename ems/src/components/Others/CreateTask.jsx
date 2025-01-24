@@ -9,12 +9,12 @@ const CreateTask = () => {
     const [category, setCategory] = useState('')
 
 
-    const [task, setTask] = useState([])
+    const [task, setTask] = useState({})
 
     const submitHandler = (e) => {
         e.preventDefault()
 
-        
+        setTask({taskTitle, taskDescription, taskDate, category, assignTo, active:false})        
     }
 
   return (
