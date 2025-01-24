@@ -14,7 +14,7 @@ const CreateTask = () => {
     const submitHandler = (e) => {
         e.preventDefault()
 
-        setNewTask({taskTitle, taskDescription, taskDate, category, assignTo, active:false, newTask:true, failed:true, completed:false})       
+        setNewTask({taskTitle, taskDescription, taskDate, category, assignTo, active:false, newTask:true, failed:false, completed:false})       
         
         const data = JSON.parse(localStorage.getItem('employees'))
 
