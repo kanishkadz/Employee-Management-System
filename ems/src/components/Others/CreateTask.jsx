@@ -2,10 +2,10 @@ import React from 'react'
 
 const CreateTask = () => {
 
-    const submitHandler = () => {
+    const submitHandler = (e) => {
         e.preventDefault()
 
-        
+
     }
 
   return (
