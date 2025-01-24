@@ -7,7 +7,7 @@ const EmployeeDashboard = (props) => {
   return (
     <div>
         <div className='p-10 bg-[#1c1c1c] h-screen'>
-            <Header data={props.data} />
+            <Header changeUser={props.changeUser} data={props.data} />
             <TaskListNumbers data={props.data} />
             <TaskList data={props.data} />
         </div>
