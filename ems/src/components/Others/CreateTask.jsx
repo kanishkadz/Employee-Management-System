@@ -23,6 +23,12 @@ const CreateTask = () => {
                 elem.tasks.push(newTask)
             }
         })
+
+        setTaskTitle('')
+        setAssignTo('')
+        setCategory('')
+        setTaskDate('')
+        setTaskDescription('')
     }
 
   return (
