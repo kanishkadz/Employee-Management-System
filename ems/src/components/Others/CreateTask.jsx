@@ -24,7 +24,7 @@ const CreateTask = () => {
             }
         })
 
-        localStorage.setItem('employees', data)
+        localStorage.setItem('employees', JSON.stringify(data))
 
         setTaskTitle('')
         setAssignTo('')
