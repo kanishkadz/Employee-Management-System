@@ -24,6 +24,8 @@ const CreateTask = () => {
             }
         })
 
+        localStorage.setItem('employees', data)
+
         setTaskTitle('')
         setAssignTo('')
         setCategory('')
