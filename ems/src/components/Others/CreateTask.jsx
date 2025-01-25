@@ -28,6 +28,8 @@ const CreateTask = () => {
             }
         })
 
+        setUserData(data)
+
 
         setTaskTitle('')
         setAssignTo('')
