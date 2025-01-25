@@ -19,7 +19,7 @@ const CreateTask = () => {
 
         setNewTask({taskTitle, taskDescription, taskDate, category, assignTo, active:false, newTask:true, failed:false, completed:false})       
         
-        const data = JSON.parse(localStorage.getItem('employees'))
+        const data = userData.employees
 
         data.forEach(function(elem){
             if(assignTo == elem.firstName){
@@ -28,7 +28,6 @@ const CreateTask = () => {
             }
         })
 
-        localStorage.setItem('employees', JSON.stringify(data))
 
         setTaskTitle('')
         setAssignTo('')
