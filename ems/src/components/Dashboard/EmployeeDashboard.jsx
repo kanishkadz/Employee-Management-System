@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../Others/Header'
-import TaskListNumbers from '../other/TaskListNumbers'
+import TaskListNumbers from '../Others/TaskListNumbers'
 import TaskList from '../TaskList/TaskList'
 
 const EmployeeDashboard = (props) => {
